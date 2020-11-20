@@ -3,3 +3,5 @@
 homework02:第二次作业，3C框架小游戏    
 homework03:第三次作业，物理效果     
 homework04：第四次作业，布料和物理破坏     
+homework05：第五次作业，电路板材质和视锥、遮挡剔除     
+homework06：第六次作业，光照      
