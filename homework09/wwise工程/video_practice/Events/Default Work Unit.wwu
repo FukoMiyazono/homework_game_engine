@@ -47,6 +47,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ShortGun" ID="{5AB185E0-7E52-4AAE-B017-438B300445DF}">
+					<ChildrenList>
+						<Action Name="" ID="{ED6E1B00-D3A3-439C-856D-6CC12F0BC60E}" ShortID="441302897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{AD3AB13E-D866-4625-AD0C-7F9ADCE1B5D5}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ShortGun" ID="{25D6B943-18F9-4F49-8CDB-166D97C7A0EE}">
+					<ChildrenList>
+						<Action Name="" ID="{42513A1D-2515-42A7-8E44-D848D0B0C014}" ShortID="551869955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{AD3AB13E-D866-4625-AD0C-7F9ADCE1B5D5}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_rain" ID="{50F1D2AA-D616-441B-A176-3636AFA1793D}">
+					<ChildrenList>
+						<Action Name="" ID="{26960CF4-01C7-4FE9-89F7-A1FCC5C7C8B3}" ShortID="118740045">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain" ID="{8D99F022-AD20-45B2-A889-E48F7B13849E}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,6 +10,9 @@ ScriptsOnlyBuild:
     - AkInitializer
     - AkWindowsSettings
     - AkWwiseInitializationSettings
+    - Open3DSound
+    - Play3DSound
+    - PlayRain
     - PlayUISound
     - WwiseBankReference
     - blend
@@ -43,9 +46,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -83,6 +94,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13956}
     - Class: 114
       Script: {instanceID: 13980}
+    - Class: 114
+      Script: {instanceID: 15906}
+    - Class: 114
+      Script: {instanceID: 16194}
+    - Class: 114
+      Script: {instanceID: 19540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -850,6 +867,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f3f46485d1bb3cbd764c8bf46211879
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Play3DSound
+  - hash:
+      serializedVersion: 2
+      Hash: a366b8e3384e3c5509b46c3b7a2450b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Open3DSound
+  - hash:
+      serializedVersion: 2
+      Hash: 783511aaf95c273d5dee0a1fa31f8a9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayRain
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

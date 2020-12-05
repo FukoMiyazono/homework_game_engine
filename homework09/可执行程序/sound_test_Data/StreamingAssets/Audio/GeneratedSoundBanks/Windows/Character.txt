@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1410332776	Stop_ShortGun			\Default Work Unit\Stop_ShortGun	
+	3420320478	Play_ShortGun			\Default Work Unit\Play_ShortGun	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	909065421	Shoot01	D:\Coding\homework_game_engine\homework09\wwise

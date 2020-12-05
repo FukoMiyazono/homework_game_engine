@@ -9,5 +9,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>D:\安装软件\wwise</WwiseInstallationPathWindows>
-  <WwiseProjectPath>C:/Users/ashle/Documents/WwiseProjects/video_practice/video_practice.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../../wwise工程/video_practice/video_practice.wproj</WwiseProjectPath>
 </WwiseSettings>

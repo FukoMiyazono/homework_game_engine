@@ -55,6 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Open3DSound.cs" />
+     <Compile Include="Assets\Play3DSound.cs" />
+     <Compile Include="Assets\PlayRain.cs" />
      <Compile Include="Assets\PlayUISound.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\Ak3DPositionType.cs" />
@@ -264,8 +267,13 @@
      <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
      <Compile Include="Assets\blend.cs" />
      <None Include="Assets\StreamingAssets\desc.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Init.txt" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Character.txt" />
      <None Include="Assets\Wwise\Version.txt" />
      <None Include="Assets\WwiseSettings.xml" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\UI.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity2019/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
