@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Click" ID="{0CD91D0E-4C69-4FA2-B5EE-6DB58ACF1BCC}">
+					<ChildrenList>
+						<Action Name="" ID="{A14C0D2C-1238-463B-8794-0A5B0C04755A}" ShortID="98360868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{34509884-1ABD-4F3C-8613-0BE7410CD66E}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shoot" ID="{C884F3B0-A99C-43B1-A895-3B1A5CB405E1}">
+					<ChildrenList>
+						<Action Name="" ID="{B6647DDA-24BF-42AA-A1BC-4BCF028216E4}" ShortID="573617129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shoot" ID="{D9A42C66-AF99-4A34-A443-6D4082E94AA1}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_music" ID="{8D918985-99CA-484B-8259-5C843768D552}">
+					<ChildrenList>
+						<Action Name="" ID="{28A2618B-1D58-4795-9332-CCACC190B69D}" ShortID="878569315">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{ED7B80B8-1C82-4FC2-B615-AD5B51866BE3}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_rain" ID="{2F423150-1C05-43C0-8BE5-31A96ACB90D2}">
+					<ChildrenList>
+						<Action Name="" ID="{2136BB7B-469A-459E-A544-1B921F2B31E9}" ShortID="429761867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain" ID="{8D99F022-AD20-45B2-A889-E48F7B13849E}" WorkUnitID="{681A6318-937A-4D86-BDAF-5AB7303E6F11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

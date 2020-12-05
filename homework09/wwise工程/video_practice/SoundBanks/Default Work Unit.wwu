@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C570533C-7391-4FFF-84DA-61A69D1A716F}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C570533C-7391-4FFF-84DA-61A69D1A716F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI" ID="{B6ABC2D0-2E32-46C5-AFCA-BC06FBCF7F5B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Shoot" ID="{C884F3B0-A99C-43B1-A895-3B1A5CB405E1}" WorkUnitID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_rain" ID="{2F423150-1C05-43C0-8BE5-31A96ACB90D2}" WorkUnitID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_music" ID="{8D918985-99CA-484B-8259-5C843768D552}" WorkUnitID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_UI_Click" ID="{0CD91D0E-4C69-4FA2-B5EE-6DB58ACF1BCC}" WorkUnitID="{D05742EA-F08A-4FE3-AA6F-E5E60A27C83B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

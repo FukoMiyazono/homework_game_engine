@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ashle\Documents\WwiseProjects\video_practice\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ashle\Documents\WwiseProjects\video_practice\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ashle\Documents\WwiseProjects\video_practice\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="522824691" Language="SFX">
+			<ShortName>rain01.wav</ShortName>
+			<Path>SFX\rain01_D79FB2B7.wem</Path>
+		</File>
+		<File Id="570151203" Language="SFX">
+			<ShortName>rain02.wav</ShortName>
+			<Path>SFX\rain02_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_music" ObjectPath="\Events\Default Work Unit\Play_music" DurationType="OneShot" DurationMin="5.037506" DurationMax="11.813424"/>
+				<Event Id="2838936948" Name="Play_rain" ObjectPath="\Events\Default Work Unit\Play_rain" DurationType="Infinite"/>
+				<Event Id="2641650631" Name="Play_Shoot" ObjectPath="\Events\Default Work Unit\Play_Shoot" DurationType="OneShot" DurationMin="0.448947" DurationMax="1.425317"/>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="0.799932" DurationMax="0.799932"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="522824691"/>
+				<File Id="570151203"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="141736755" Language="SFX">
+					<ShortName>Shoot03.wav</ShortName>
+					<Path>SFX\Shoot03_10C4C929.wem</Path>
+				</File>
+				<File Id="429520790" Language="SFX">
+					<ShortName>seq03.wav</ShortName>
+					<Path>SFX\seq03_10C4C929.wem</Path>
+				</File>
+				<File Id="468720257" Language="SFX">
+					<ShortName>seq02.wav</ShortName>
+					<Path>SFX\seq02_10C4C929.wem</Path>
+				</File>
+				<File Id="507150926" Language="SFX">
+					<ShortName>Glock18射击音效_耳聆网_[声音ID：19921].wav</ShortName>
+					<Path>SFX\Glock18射击音效_耳聆网_[声音ID：19921]_10C4C929.wem</Path>
+				</File>
+				<File Id="584379506" Language="SFX">
+					<ShortName>Shoot02.wav</ShortName>
+					<Path>SFX\Shoot02_10C4C929.wem</Path>
+				</File>
+				<File Id="729999067" Language="SFX">
+					<ShortName>seq01.wav</ShortName>
+					<Path>SFX\seq01_10C4C929.wem</Path>
+				</File>
+				<File Id="771991660" Language="SFX">
+					<ShortName>Shoot04.wav</ShortName>
+					<Path>SFX\Shoot04_10C4C929.wem</Path>
+				</File>
+				<File Id="909065421" Language="SFX">
+					<ShortName>Shoot01.wav</ShortName>
+					<Path>SFX\Shoot01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

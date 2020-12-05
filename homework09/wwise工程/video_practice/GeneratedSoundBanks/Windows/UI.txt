@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+	2641650631	Play_Shoot			\Default Work Unit\Play_Shoot	
+	2838936948	Play_rain			\Default Work Unit\Play_rain	
+	2932040671	Play_music			\Default Work Unit\Play_music	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2334884733	RainVolume			\Default Work Unit\RainVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	141736755	Shoot03	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\Shoot03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot\Shoot03		70618
+	429520790	seq03	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\seq03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\seq03		888680
+	468720257	seq02	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\seq02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\seq02		2083952
+	507150926	UI_Click	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\Glock18	584379506	Shoot02	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\Shoot02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot\Shoot02		70618
+	729999067	seq01	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\seq01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\seq01		1397916
+	771991660	Shoot04	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\Shoot04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot\Shoot04		70618
+	909065421	Shoot01	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\Shoot01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot\Shoot01		70618
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	522824691	rain01	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\rain01_D79FB2B7.wem	522824691.wem	\Actor-Mixer Hierarchy\Default Work Unit\rain\rain01	
+	570151203	rain02	C:\Users\ashle\Documents\WwiseProjects\video_practice\.cache\Windows\SFX\rain02_D79FB2B7.wem	570151203.wem	\Actor-Mixer Hierarchy\Default Work Unit\rain\rain02	
+
